@@ -1,0 +1,110 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+}
+
+p{
+  font-size: 21px;
+}
+
+h2{
+  font-size: 45px;
+}
+
+p::selection{
+  background-color: black;
+  color: white;
+}
+.heading2{
+  font-size: 45px;
+  text-align: center;
+  line-height: 0;
+  margin-bottom: 4rem;
+}
+.heading3{
+  font-size: 30px;
+  text-align: center;
+}
+.heading4{
+  position: relative;
+  display: inline-block;
+  padding: 1rem;
+  font-size: 28px;
+  color: rgb(0, 0, 0);
+  margin: 0;
+  border-radius: 20px;
+
+}
+
+.ceni{
+  padding: 2rem;
+  background: linear-gradient(to bottom, #ffff, #d1d1d1 );
+  margin: top 5rem;
+}
+
+.cena{
+
+  font-weight: 400;
+  background-color: black;
+  padding: 1rem;
+  color: white;
+  border-radius: 10px;
+  width: 200px;
+}
+/* 
+.heading4::before{
+  position: absolute;
+  display: block;
+  content: "";
+  width: 30%;
+  height: 5px;
+  background-color: rgb(11, 11, 11);
+  top: 0px;
+} */
+
+
+.phone-link {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: #ffffff; /* Blue color */
+  padding: 1rem;
+  background-color: black;
+  position:fixed;
+  z-index: 10;
+  font-size: 22px;
+  right: 0;
+  bottom: 0;
+
+}
+
+.phone-icon {
+  margin-left: 1rem; 
+  font-size: 22px; 
+}
+
+.logo{
+  width: 350px;
+  margin: 0 auto;
+  display: block;
+
+}
+
+.main{
+  margin: 0 auto;
+  width: 60%;
+}
+
+.section{
+  padding: 3rem;
+}
+
+
+
+@media screen and (max-width: 1000px){
+  .main{
+    width: 100%;
+
+  }
+}
